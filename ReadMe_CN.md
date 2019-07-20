@@ -1,3 +1,4 @@
+
 # tf_cnnvis
 
 tf_cnnvis是一个CNN可视化库,你可以使用它来更好的理解自己的卷积神经网络。我们使用tesorflow作为后端，生成的图片可以显示在TensorBoard中。目前，我们实现了以下功能：
@@ -51,25 +52,34 @@ tf_cnnvis是一个CNN可视化库,你可以使用它来更好的理解自己的�
 ## 安装tf_cnnvis的命令：
 
 使用git bash克隆本仓库
-`#!bash`
-`git clone https://github.com/InFoCusp/tf_cnnvis.git`
-运行以下命令：
-`#!bash`
-`sudo pip install setuptools`
-`sudo pip install six`
-`sudo python setup.py install`
-`sudo python setup.py clean`
 
+ 
+```
+#!bash
+
+git clone https://github.com/InFoCusp/tf_cnnvis.git
+```
+   运行以下命令：
+    
+ ```
+#!bash
+sudo pip install setuptools
+sudo pip install six
+sudo python setup.py install
+sudo python setup.py clean
+```
 ### 引用
 
 如果你在自己的工作中使用了tf_cnnvis库，请按如下方式引用
- @misc{tf_cnnvis,
+```
+  @misc{tf_cnnvis,
     author = {Bhagyesh Vikani, Falak Shah},
     title = {CNN Visualization},
     year = {2017},
     howpublished = {\url{https://github.com/InFoCusp/tf_cnnvis/}},
-    doi = {10.5281/zenodo.2594491}
+    note = {commit xxxxxxx}
   }
+```
 
 ## 应用程序接口(API)
 
